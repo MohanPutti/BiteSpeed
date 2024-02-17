@@ -1,0 +1,32 @@
+{
+  "name": "bitespeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "NODE_ENV=development nodemon -r dotenv-safe/config "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.27.1",
+    "bottleneck": "^2.19.5",
+    "busboy": "^1.6.0",
+    "chance": "^1.1.8",
+    "compression": "^1.7.4",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.0",
+    "sequelize": "^6.35.1",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}
